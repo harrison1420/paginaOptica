@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="manifest" href="../assets/favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="icon" href="imagenes/logoc.jpeg">
+    <link rel="stylesheet" href="estilos.css">
+    
+    <title>Donde Encontrarnos - Optica red visual</title>
+</head>
+<body>
+    
+    <header class="header">
+        <a href="index.html" class="logo animate__fadeInLeft animate__animated animate__slow"><img src="imagenes/logoc.jpeg" alt="logo" height="100" width="100" /></a>
+        <h1 class="titulo animate__fadeInLeft animate__animated animate__slow"><strong>Óptica Red Visual Primo</strong></h1>
+        <nav class="barraNavegacion">
+            <ul>
+                <li><a href='index.html'>Inicio</a></li>
+                <li><a href='productos.html'>Productos</a></li>
+                <li><a href='servicios.html'>Servicios</a></li>
+                <li><a href='nosotros.html'>Nosotros</a></li>
+                <li><a href='#'>Dónde Encontrarnos</a></li>
+            </ul>
+        </nav>
+ 
+    </header>
+      
+    <main class="dondeEncontrarnos">
+        <div class="row">
+            <section title="ubicacion" class="ubicacion">    
+                <h2>Dónde Encontrarnos</h2>
+                <p class="descripcion">Estamos ubicados en la carrera 8 No. 18-41 Bogotá, Colombia</p>
+                <div class="gmaps" align ="center">                                                     
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5624.237007527892!2d-74.07457492161447!3d4.6054587677798295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a195e7961d%3A0x3c622f58b7709e1c!2sCra.%208%20%2318-41%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1679433079163!5m2!1ses-419!2sco" 
+                            width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+            <section title="formContacto" class="formContacto">
+                <div title="horario">
+                    <h3 class="titulo2">Horarios de Atencion</h3>
+                    <table border ="1" class="horarios table table-bordered table-striped">
+                        <tr>
+                            <th>Dias</th>
+                            <th>Horarios</th>
+                        </tr>
+                        <tr>
+                            <td>Lunes a Viernes</td>
+                            <td>9:00 am a 6:00 pm</td>
+                        </tr>
+                        <tr>
+                            <td>Sabado</td>
+                            <td>9:00am a 5:00 pm</td>
+                        </tr>
+                        <tr>
+                            <td>Domingos-festivos</td>
+                            <td>11:00am a 3:00 pm</td>
+                        </tr>
+                    </table>
+                </div>
+                <div title="contacto">
+                    <h2>Contacto</h2>
+                    <form action="../scripts/formulario_contacto.php" method="post" enctype="text/plain">
+                        <div class="form-group">
+                            <label for="usr">Nombre:</label>
+                            <input type="text" class="form-control" id="usr" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="mailto">Email:</label>
+                            <input type="email" class="form-control" id="mailto" placeholder="">
+                        </div> 
+                        <div class="form-group">
+                            <label for="comment">Mensaje:</label>
+                            <textarea class="form-control" rows="5" id="comment" placeholder="Hola, queria consultarles por..."></textarea>
+                        </div> 
+                        <input class="btn btn-info btn-sm" type="submit" value="Enviar">
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+   
+    <footer class="footer">
+        <a href="https://www.facebook.com/people/Optica-red-visual-primo/100091292160208/" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/opticaredvisualp/" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://wa.me/3148224372" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        <a href="mailto:opticaredvisual2@gmail.com" target="_blank"><i class="bi bi-envelope"></i></a>
+        <p class="letraChica">&#174;</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>
